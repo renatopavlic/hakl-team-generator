@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/hakl-team-generator/static/css/main.bace7113.css",
+    "main.js": "/hakl-team-generator/static/js/main.f51aab72.js",
+    "index.html": "/hakl-team-generator/index.html",
+    "main.bace7113.css.map": "/hakl-team-generator/static/css/main.bace7113.css.map",
+    "main.f51aab72.js.map": "/hakl-team-generator/static/js/main.f51aab72.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bace7113.css",
+    "static/js/main.f51aab72.js"
+  ]
+}
