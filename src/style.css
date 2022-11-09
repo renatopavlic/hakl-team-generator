@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 20s ease infinite;
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.app {
+  min-height: 100vh;
+}
+
+button {
+  background-color: #23a6d5;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  color: white;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+button.submit-btn {
+  height: 2rem;
+  padding: 0.5rem 1rem;
+}
+
+.main-title {
+  text-align: center;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-style: italic;
+  margin: 2rem 0;
+}
+
+.form-wrapper {
+  display: flex;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.form-wrapper input {
+  width: 200px;
+  margin-right: 1rem;
+  height: 2rem;
+  border-radius: 5px;
+  padding-left: 0.5rem;
+  border: none;
+}
+
+.player-list-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 0 0.5rem;
+}
+
+.checkbox-wrapper {
+  display: flex;
+  margin-right: 2rem;
+  flex: 0.33;
+}
+
+.player-list-wrapper label {
+  text-transform: uppercase;
+  margin-left: 16px;
+}
+
+.team-generator-wrapper {
+  padding-top: 3rem;
+  text-align: center;
+}
+
+.teams-wrapper {
+  margin-top: 2rem;
+  flex: 1;
+}
+
+.teams-wrapper p {
+  text-transform: uppercase;
+  margin: 1rem 0;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .form-wrapper {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .player-list-wrapper {
+    padding: 0 2rem;
+  }
+}
