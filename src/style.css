@@ -5,13 +5,10 @@
 }
 
 body {
-  display: flex;
-  justify-content: center;
-  background-color: gray;
-  /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab); */
+  background-image: url("./images/bg2.webp");
+  /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
   background-size: 400% 400%;
-  animation: gradient 20s ease infinite;
-  color: white;
+  animation: gradient 20s ease infinite; */
   font-family: "Lato", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -21,6 +18,9 @@ body {
 
 .app {
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
 }
 
 button {
@@ -40,21 +40,19 @@ button.submit-btn {
 
 .main-title {
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.2rem;
   text-transform: uppercase;
   font-style: italic;
-  margin: 2rem 0;
+  margin: 1rem 0;
 }
 
 .form-wrapper {
   display: flex;
   align-items: center;
-  padding: 1rem 0;
 }
 
 .form-wrapper input {
   width: 200px;
-  margin-right: 1rem;
   height: 2rem;
   border-radius: 5px;
   padding-left: 0.5rem;
@@ -63,20 +61,15 @@ button.submit-btn {
 
 .player-list-wrapper {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 2rem;
-  padding: 0 0.5rem;
-}
-
-.checkbox-wrapper {
-  display: flex;
-  margin-right: 2rem;
-  flex: 0.33;
 }
 
 .player-list-wrapper label {
   text-transform: uppercase;
   margin-left: 16px;
+  font-weight: 700;
 }
 
 .team-generator-wrapper {
