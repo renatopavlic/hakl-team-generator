@@ -1,13 +1,26 @@
 {
   "files": {
-    "main.css": "/hakl-team-generator/static/css/main.f55e8c72.css",
-    "main.js": "/hakl-team-generator/static/js/main.f51aab72.js",
+    "main.css": "/hakl-team-generator/static/css/main.2000b3d4.css",
+    "main.js": "/hakl-team-generator/static/js/main.c7213fc0.js",
+    "static/media/beli.png": "/hakl-team-generator/static/media/beli.ce1efdfe7710c3f50fc9.png",
+    "static/media/joho.png": "/hakl-team-generator/static/media/joho.0f18ab8e5bdfc82139a0.png",
+    "static/media/bg2.webp": "/hakl-team-generator/static/media/bg2.5a00ed6ef7aa4a55970a.webp",
+    "static/media/bg.jpeg": "/hakl-team-generator/static/media/bg.619475d3b64600c57055.jpeg",
+    "static/media/reno.png": "/hakl-team-generator/static/media/reno.5850acea5fa7a28de099.png",
+    "static/media/didi.png": "/hakl-team-generator/static/media/didi.9649352d274bd83ccc11.png",
+    "static/media/toma.png": "/hakl-team-generator/static/media/toma.d4d806d09a651719014a.png",
+    "static/media/borna.png": "/hakl-team-generator/static/media/borna.9305c3231c58be052438.png",
+    "static/media/bendji.png": "/hakl-team-generator/static/media/bendji.f475c0e436b966215379.png",
+    "static/media/vami.png": "/hakl-team-generator/static/media/vami.9581f2d477cbd1dad0d1.png",
+    "static/media/magda.png": "/hakl-team-generator/static/media/magda.1c505d88eed3c6b39238.png",
+    "static/media/mara.png": "/hakl-team-generator/static/media/mara.66f79d199606eee9ce7e.png",
+    "static/media/doc.png": "/hakl-team-generator/static/media/doc.12d2925a502080164813.png",
     "index.html": "/hakl-team-generator/index.html",
-    "main.f55e8c72.css.map": "/hakl-team-generator/static/css/main.f55e8c72.css.map",
-    "main.f51aab72.js.map": "/hakl-team-generator/static/js/main.f51aab72.js.map"
+    "main.2000b3d4.css.map": "/hakl-team-generator/static/css/main.2000b3d4.css.map",
+    "main.c7213fc0.js.map": "/hakl-team-generator/static/js/main.c7213fc0.js.map"
   },
   "entrypoints": [
-    "static/css/main.f55e8c72.css",
-    "static/js/main.f51aab72.js"
+    "static/css/main.2000b3d4.css",
+    "static/js/main.c7213fc0.js"
   ]
 }
