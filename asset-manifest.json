@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/hakl-team-generator/static/css/main.2000b3d4.css",
-    "main.js": "/hakl-team-generator/static/js/main.c7213fc0.js",
+    "main.css": "/hakl-team-generator/static/css/main.19730092.css",
+    "main.js": "/hakl-team-generator/static/js/main.0168d2a7.js",
     "static/media/beli.png": "/hakl-team-generator/static/media/beli.ce1efdfe7710c3f50fc9.png",
     "static/media/joho.png": "/hakl-team-generator/static/media/joho.0f18ab8e5bdfc82139a0.png",
     "static/media/bg2.webp": "/hakl-team-generator/static/media/bg2.5a00ed6ef7aa4a55970a.webp",
@@ -13,14 +13,15 @@
     "static/media/bendji.png": "/hakl-team-generator/static/media/bendji.f475c0e436b966215379.png",
     "static/media/vami.png": "/hakl-team-generator/static/media/vami.9581f2d477cbd1dad0d1.png",
     "static/media/magda.png": "/hakl-team-generator/static/media/magda.1c505d88eed3c6b39238.png",
+    "static/media/mac.png": "/hakl-team-generator/static/media/mac.ff4d5b6c34e9327db511.png",
     "static/media/mara.png": "/hakl-team-generator/static/media/mara.66f79d199606eee9ce7e.png",
     "static/media/doc.png": "/hakl-team-generator/static/media/doc.12d2925a502080164813.png",
     "index.html": "/hakl-team-generator/index.html",
-    "main.2000b3d4.css.map": "/hakl-team-generator/static/css/main.2000b3d4.css.map",
-    "main.c7213fc0.js.map": "/hakl-team-generator/static/js/main.c7213fc0.js.map"
+    "main.19730092.css.map": "/hakl-team-generator/static/css/main.19730092.css.map",
+    "main.0168d2a7.js.map": "/hakl-team-generator/static/js/main.0168d2a7.js.map"
   },
   "entrypoints": [
-    "static/css/main.2000b3d4.css",
-    "static/js/main.c7213fc0.js"
+    "static/css/main.19730092.css",
+    "static/js/main.0168d2a7.js"
   ]
 }
