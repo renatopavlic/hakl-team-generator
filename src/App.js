@@ -73,8 +73,8 @@ function App() {
     Object.entries(groupedByTear).forEach(([group, playersArr]) => {
       console.log("players arr", playersArr);
       playersArr
-        .sort((a, b) => (b.name === "reno") - (a.name === "reno"))
-        .forEach((player) => {
+        /*         .sort((a, b) => (b.name === "reno") - (a.name === "reno"))
+         */ .forEach((player) => {
           if (!teamOne.length) {
             teamOne.push(player.name);
             return;
@@ -85,7 +85,7 @@ function App() {
             return;
           }
 
-          if (player.name === "reno") {
+          /* if (player.name === "reno") {
             if (teamOne.includes("joho")) {
               teamOne.push(player.name);
               return;
@@ -95,7 +95,7 @@ function App() {
               teamTwo.push(player.name);
               return;
             }
-          }
+          } */
 
           if (teamOne.length > teamTwo.length) {
             teamTwo.push(player.name);
@@ -179,7 +179,14 @@ function App() {
         <button onClick={() => generateTeams(selectedPlayers)}>
           Generate Teams
         </button>
-        <div style={{ display: "flex" }}>
+        <div
+          style={{
+            display: "flex",
+            color: "white",
+            letterSpacing: "3px",
+            fontWeight: 900,
+          }}
+        >
           <div className="teams-wrapper">
             {teamOne.sort().map((player) => (
               <p key={player}>{player}</p>
